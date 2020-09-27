@@ -20,22 +20,22 @@ import javax.swing.tree.TreeNode
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-/**
- * Definition for a binary tree node.
- * class TreeNode(var _value: Int) {
- *   var value: Int = _value
- *   var left: TreeNode = null
- *   var right: TreeNode = null
- * }
- */
-object Solution {
-    def inorderTraversal(root: TreeNode): List[Int] = {
-        def inorderTraversal(root: TreeNode, returnValue: List[Int]): List[Int] = {
-            if (root == null) returnValue
-            else inorderTraversal(root.right, inorderTraversal(root.left, returnValue) :+ root.value)
-        }
-
-        inorderTraversal(root, List.empty)
-    }
-}
+///**
+// * Definition for a binary tree node.
+// * class TreeNode(var _value: Int) {
+// *   var value: Int = _value
+// *   var left: TreeNode = null
+// *   var right: TreeNode = null
+// * }
+// */
+//object Solution {
+//    def inorderTraversal(root: TreeNode): List[Int] = {
+//        def inorderTraversal(root: TreeNode, returnValue: List[Int]): List[Int] = {
+//            if (root == null) returnValue
+//            else inorderTraversal(root.right, inorderTraversal(root.left, returnValue) :+ root.value)
+//        }
+//
+//        inorderTraversal(root, List.empty)
+//    }
+//}
 //leetcode submit region end(Prohibit modification and deletion)

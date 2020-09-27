@@ -30,15 +30,15 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-object Solution {
-    def maxProfit(prices: Array[Int]): Int = {
-        val len = prices.length
-        if (len == 0) {
-            return 0
-        }
-        val dp = new Array[Int](len)
-
-
-    }
-}
+//object Solution {
+//    def maxProfit(prices: Array[Int]): Int = {
+//        val len = prices.length
+//        if (len == 0) {
+//            return 0
+//        }
+//        val dp = new Array[Int](len)
+//
+//
+//    }
+//}
 //leetcode submit region end(Prohibit modification and deletion)

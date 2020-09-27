@@ -32,9 +32,9 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-object Solution {
-    def exist(board: Array[Array[Char]], word: String): Boolean = {
-
-    }
-}
+//object Solution {
+//    def exist(board: Array[Array[Char]], word: String): Boolean = {
+//
+//    }
+//}
 //leetcode submit region end(Prohibit modification and deletion)
