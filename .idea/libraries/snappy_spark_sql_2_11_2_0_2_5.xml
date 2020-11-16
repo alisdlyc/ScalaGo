@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="snappy-spark-sql_2.11-2.0.2.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/snappy-spark-sql_2.11-2.0.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
